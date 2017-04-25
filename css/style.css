@@ -1,0 +1,62 @@
+
+body {
+	display: block;
+	margin: 0;
+}
+
+
+.logo img {
+	display: block;
+	width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-bottom: 15px;
+}
+
+nav {
+	background: lightgray;
+	padding: 10px;
+}
+
+
+ul {
+	list-style: none;
+	padding-bottom: 15px;
+	 text-align:center; 
+	}
+
+li {
+	display: inline; 
+	}
+
+.wrapper img{
+	width: 10%;
+}
+
+.copy{
+
+margin: 5%;
+}
+
+footer {
+	background: black;
+	height: 30px;
+	color: white;
+	margin-top: 5%;
+	min-width:100%;
+	padding: 15px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 994px) {
+
+	.logo img {
+		width: 30%;
+	}
+	
+	.wrapper img{
+	width: 5%;
+}
+
+}
