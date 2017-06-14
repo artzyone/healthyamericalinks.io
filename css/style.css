@@ -27,16 +27,12 @@ ul {
 	}
 
 li {
-	display: inline; 
+	display: inline;
+	padding: 0px 15px; 
 	}
 
-.wrapper img{
-	width: 10%;
-}
-
-.copy{
-
-margin: 5%;
+.copy {
+	margin-left: 100px;
 }
 
 footer {
